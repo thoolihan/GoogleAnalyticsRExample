@@ -11,4 +11,8 @@ with(data, {
           col = "blue",
           main = "Google Analytics",
           ylim = c(0, 200)) 
+     
+     abline(a = 100, 
+            b = 0,
+            col = "gray")
 })
