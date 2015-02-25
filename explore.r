@@ -9,6 +9,8 @@ with(data, {
           xlab = "Date",
           type = "b",
           col = "blue",
+          pch = 21,
+          bg = "navy",
           main = "Google Analytics",
           ylim = c(0, 200)) 
      
