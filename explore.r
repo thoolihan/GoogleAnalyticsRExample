@@ -17,4 +17,8 @@ with(data, {
      abline(a = 100, 
             b = 0,
             col = "gray")
+     
+     xarea <- c(Day.Index, rev(Day.Index))
+     yarea <- c(Pageviews, rep(0, nrow(data)))
+     polygon(xarea, yarea, col = "light blue")
 })
