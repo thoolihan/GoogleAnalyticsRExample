@@ -7,5 +7,8 @@ with(data, {
      plot(Day.Index, 
           Pageviews,
           xlab = "Date",
-          type = "b")
+          type = "b",
+          col = "blue",
+          main = "Google Analytics",
+          ylim = c(0, 200)) 
 })
