@@ -1,5 +1,4 @@
-
-data <- read.csv("~/workspace/data/ga2-hoolihan.csv", sep=",")
+data <- read.csv("ga-data.csv", sep=",")
 
 with(data, {
      Day.Index <- as.Date(Day.Index, format="%m/%d/%Y")
